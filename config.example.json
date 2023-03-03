@@ -1,0 +1,18 @@
+{
+  "UserId": "testb3",
+  "Password": "123456",
+  "Platform": "macos",
+  "WsAddr": "wss://api.cherish.chat:443/ws",
+  "RsaPublicKey": "-----BEGIN PUBLIC KEY-----\nxxx\n-----END PUBLIC KEY-----\n",
+  "CommandPrefix": "/",
+  "Sqlite3Path": "./bot.db",
+  "MaxTokens": 500,
+  "MaxChatLog": 20,
+  "ChatGptRpc": {
+    "Endpoints": [
+      "127.0.0.1:50051"
+    ],
+    "Timeout": 60000,
+    "NonBlock": true
+  }
+}
